@@ -4,8 +4,8 @@ import json
 import requests
 from datetime import datetime
 
-RPC_USER = os.getenv("BTC_RPC_USER")    # rpcuser from bitcoin.conf
-RPC_PASS = os.getenv("BTC_RPC_PASS")    # rpcpassword from bitcoin.conf
+RPC_USER = "customcoin"    # rpcuser from bitcoin.conf
+RPC_PASS = "U67ASL3iBkGU28U"    # rpcpassword from bitcoin.conf
 RPC_HOST = "127.0.0.1"                  # rpcbind from bitcoin.conf
 RPC_PORT = 8332                         # rpcport from bitcoin.conf
 RPC_URL = f"http://{RPC_USER}:{RPC_PASS}@{RPC_HOST}:{RPC_PORT}"
